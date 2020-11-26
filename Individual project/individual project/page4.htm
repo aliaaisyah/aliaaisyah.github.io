@@ -1,0 +1,78 @@
+<html>
+<head>
+	<title> Form </title>
+</head>
+<body>
+	
+	<fieldset>
+	<legend> Click here to see further </legend>
+		<ul>
+			<li><a href="My project.htm"> Home.</a></li>
+			<ul>
+				<li> About Me. </li>
+				<li> My Hobby. </li>
+			</ul>
+			<li><a href="page2.htm"> Page 2 </a><br>
+				<ul>
+					<li> Jogging Schedule. </li>
+					<li> Jogging's Advantages and Disadvantages. </li>
+				</ul>
+			</li>
+			<li><a href="page3.htm"> Page 3 </a>
+				<ul>
+					<li> Let's watch some video. </li>
+					<li> Jogging's Outfit. </li>
+				</ul>
+			</li>
+			<li><a href="page4.htm"> Form </a></li>
+			<li><a href="page5.htm"> Thank You </a></li>
+		</ul>
+	</fieldset>
+	
+	<form name="feedbackForm" action="" method="">
+	
+	<center><h2><u> Feedback Form </h2></u></center>
+	
+	<fieldset>
+	<legend><p> This form were created to know your feedback of my website.</p></legend>
+		<div>
+			<label for="name"> Full Name: </label>
+			<input type="text" name="Name" id="name" required>
+		</div><br>
+		<div>
+			<label for= "email"> Email: </label>
+			<input type= "email" name="email" id="email" required>
+		</div><br>
+		<div>
+		<label for="rate"> Rate your satisfied: </label>
+		<select name="rate" id="rate">
+			<option value="1star"> &#11088 </option>
+			<option value="2star"> &#11088 &#11088 </option>
+			<option value="3star"> &#11088 &#11088 &#11088 </option>
+			<option value="4star"> &#11088 &#11088 &#11088 &#11088 </option>
+			<option value="5star"> &#11088 &#11088 &#11088 &#11088 &#11088 </option>
+		</select>
+		</div><br>
+		<div>
+			<label for="feedback"> Comment: </label>
+			<textarea id="feedback" name="feedback"></textarea>
+		</div><br>
+		
+		<p> You can click this link to see my jogging's schedule <br>
+		&#128071 </p>
+		<a href="Capture.PNG"> My Jogging's Schedule Picture </a><br><br>
+		
+		<button type = "reset"> Reset </button>
+		<button type = "submit"> Submit </button>
+	</fieldset>
+	</form>
+	
+	<hr>
+	<p style = "text-align: right;"> Page 4 <br> Last modified on <span id= "modify"></span></p>
+	<script>
+		document.getElementById("modify").innerHTML = document.lastModified;
+	</script>
+	</hr>
+	
+</body>
+</html>

@@ -1,0 +1,73 @@
+<html>
+<head>
+</head>
+<body>
+	
+	<fieldset>
+	<legend> Click here to see further </legend>
+		<ul>
+			<li><a href="My Project.htm"> Home.</a></li>
+			<ul>
+				<li> About Me. </li>
+				<li> My Hobby. </li>
+			</ul>
+			<li><a href="page2.htm"> Page 2 </a><br>
+				<ul>
+					<li> Jogging Schedule. </li>
+					<li> Jogging's Advantages and Disadvantages. </li>
+				</ul>
+			</li>
+			<li><a href="page3.htm"> Page 3 </a>
+				<ul>
+					<li><a href="#jogvideo"> Let's watch some video. </a></li>
+					<li><a href="#jog_outfit"> Jogging's Outfit. </a></li>
+				</ul>
+			</li>
+			<li><a href="page4.htm"> Form </a></li>
+			<li><a href="page5.htm"> Thank You </a></li>
+		</ul>
+	</fieldset>
+	
+	<br>
+	<a name="jogvideo"></a>
+	<h2><u><center> Hey there! Lets watch some video </center></u><h2>
+	<div style="text-align:center">
+	<video width="720" height="440" controls>
+		<source src="video_2020-11-23_21-21-50.mp4" type="video/mp4">
+	</video>
+	</div>
+	<center><p> If you are the type of person that always need to listen to music while jogging,
+	I recommend this playlist for you to hear. Enjoy It!</p>
+	<a href="https://www.youtube.com/watch?v=Yir4WyDi8rU"> Running Mix 2020 </a></center>
+	
+	<br><br>
+	
+	<a name="jog_outfit"></a>
+	<h2><u><center> Jogging's Outfit </center></u></h2>
+	<img src = "photo_2020.jpg" alt="Suitable outfit for jogging."
+	style = "float:left;width:400px;height:450px"><br>
+	<img src = "photo_2020-1.jpg" alt="Suitable outfit for jogging."
+	style = "float:right;width:400px;height:450px"><br><br><br>
+	
+	<p><center> This is the suitable outfit for jogging. Which are: </center></p>
+	<div style="text-align:center">
+	<ol>
+		<li> T-shirt/jersey </li>
+		<li> Tracksuit </li>
+		<li> Socks </li>
+		<li> Sport shoes </li>
+	</ol>
+	</div>
+	<center><audio controls>
+		<source src="jogging.mp3" type="audio/mpeg">
+	</audio></center>
+	<br><br><br><br><br><br><br><br><br><br><br>
+	<hr>
+	<p style = "text-align: right;"> Page 3 <br> Last modified on <span id= "modify"></span></p>
+	<script>
+		document.getElementById("modify").innerHTML = document.lastModified;
+	</script>
+	</hr>
+	
+</body>
+</html>
